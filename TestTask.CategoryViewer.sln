@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Tests", "app\TestTask.CategoryViewer.Tests\TestTask.CategoryViewer.Tests.csproj", "{4EF7653C-F7DF-4273-A945-CFF5860EBCD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Api", "app\TestTask.CategoryViewer.Api\TestTask.CategoryViewer.Api.csproj", "{D0CCE715-6017-4E51-9360-7E12EC42A3A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Domain.Mapping", "app\TestTask.CategoryViewer.Domain.Mapping\TestTask.CategoryViewer.Domain.Mapping.csproj", "{2F6547C3-BE20-4E87-BA8F-FF7D74132A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Domain", "app\TestTask.CategoryViewer.Domain\TestTask.CategoryViewer.Domain.csproj", "{22FEA0AD-CDA1-45A4-BF6A-20B9A22A400E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.Category.Viewer.Init", "app\TestTask.Category.Viewer.Init\TestTask.Category.Viewer.Init.csproj", "{E21BA1B9-ACC1-476E-9195-CC79AE2374B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Repository", "app\TestTask.CategoryViewer.Repository\TestTask.CategoryViewer.Repository.csproj", "{96F271AF-9E3A-421C-A729-48C2488BF489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Repository.Linq2Db", "app\TestTask.CategoryViewer.Repository.Linq2Db\TestTask.CategoryViewer.Repository.Linq2Db.csproj", "{A4497387-3F15-466A-9CBA-32E8D7298160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Services", "app\TestTask.CategoryViewer.Services\TestTask.CategoryViewer.Services.csproj", "{BF24F13E-5054-4E07-B3AF-527540C49BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Common", "app\TestTask.CategoryViewer.Common\TestTask.CategoryViewer.Common.csproj", "{114E7330-5E4E-41FF-9A8B-17C05AD2E7FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5BC37440-25C9-4B4C-91F0-9716892EB1CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CategoryViewer.Database.Migration", "app\TestTask.CategoryViewer.Database.Migration\TestTask.CategoryViewer.Database.Migration.csproj", "{6393223C-9ABA-4403-B712-E16E4C7F6E14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EF7653C-F7DF-4273-A945-CFF5860EBCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF7653C-F7DF-4273-A945-CFF5860EBCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF7653C-F7DF-4273-A945-CFF5860EBCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF7653C-F7DF-4273-A945-CFF5860EBCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CCE715-6017-4E51-9360-7E12EC42A3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CCE715-6017-4E51-9360-7E12EC42A3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CCE715-6017-4E51-9360-7E12EC42A3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CCE715-6017-4E51-9360-7E12EC42A3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6547C3-BE20-4E87-BA8F-FF7D74132A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6547C3-BE20-4E87-BA8F-FF7D74132A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6547C3-BE20-4E87-BA8F-FF7D74132A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6547C3-BE20-4E87-BA8F-FF7D74132A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FEA0AD-CDA1-45A4-BF6A-20B9A22A400E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FEA0AD-CDA1-45A4-BF6A-20B9A22A400E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FEA0AD-CDA1-45A4-BF6A-20B9A22A400E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FEA0AD-CDA1-45A4-BF6A-20B9A22A400E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21BA1B9-ACC1-476E-9195-CC79AE2374B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21BA1B9-ACC1-476E-9195-CC79AE2374B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21BA1B9-ACC1-476E-9195-CC79AE2374B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21BA1B9-ACC1-476E-9195-CC79AE2374B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F271AF-9E3A-421C-A729-48C2488BF489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F271AF-9E3A-421C-A729-48C2488BF489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F271AF-9E3A-421C-A729-48C2488BF489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F271AF-9E3A-421C-A729-48C2488BF489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4497387-3F15-466A-9CBA-32E8D7298160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4497387-3F15-466A-9CBA-32E8D7298160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4497387-3F15-466A-9CBA-32E8D7298160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4497387-3F15-466A-9CBA-32E8D7298160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF24F13E-5054-4E07-B3AF-527540C49BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF24F13E-5054-4E07-B3AF-527540C49BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF24F13E-5054-4E07-B3AF-527540C49BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF24F13E-5054-4E07-B3AF-527540C49BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114E7330-5E4E-41FF-9A8B-17C05AD2E7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114E7330-5E4E-41FF-9A8B-17C05AD2E7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114E7330-5E4E-41FF-9A8B-17C05AD2E7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114E7330-5E4E-41FF-9A8B-17C05AD2E7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6393223C-9ABA-4403-B712-E16E4C7F6E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6393223C-9ABA-4403-B712-E16E4C7F6E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6393223C-9ABA-4403-B712-E16E4C7F6E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6393223C-9ABA-4403-B712-E16E4C7F6E14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F6547C3-BE20-4E87-BA8F-FF7D74132A01} = {5BC37440-25C9-4B4C-91F0-9716892EB1CB}
+		{E21BA1B9-ACC1-476E-9195-CC79AE2374B4} = {5BC37440-25C9-4B4C-91F0-9716892EB1CB}
+		{A4497387-3F15-466A-9CBA-32E8D7298160} = {5BC37440-25C9-4B4C-91F0-9716892EB1CB}
+		{6393223C-9ABA-4403-B712-E16E4C7F6E14} = {5BC37440-25C9-4B4C-91F0-9716892EB1CB}
+	EndGlobalSection
+EndGlobal
